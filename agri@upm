@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Universiti Putra Malaysia's Faculty of Agriculture - shaping the future of agriculture through innovation and research.">
+    <title>Faculty of Agriculture - UPM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #004d1a;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #004d1a;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .main-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 10px;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-section h2 {
+            color: #004d1a;
+        }
+
+        .main-section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            background-color: #ff6600;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #e65c00;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #004d1a;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Faculty of Agriculture, Universiti Putra Malaysia</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#programs">Programs</a>
+        <a href="#research">Research</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="main-section" id="about">
+        <h2>About Us</h2>
+        <p>The Faculty of Agriculture at Universiti Putra Malaysia is dedicated to shaping the future of agriculture by combining innovative research and hands-on experience. We offer a wide variety of programs designed to prepare the next generation of leaders in agriculture.</p>
+        <a href="http://agriculture.upm.edu.my/" class="cta-button">Learn More</a>
+    </div>
+
+    <div class="main-section" id="programs">
+        <h2>Our Programs</h2>
+        <p>Our programs include undergraduate and postgraduate courses in areas such as agronomy, plant biotechnology, animal sciences, and more. With state-of-the-art facilities and experienced faculty, our students are equipped to tackle the challenges of modern agriculture.</p>
+        <a href="http://agriculture.upm.edu.my/programs" class="cta-button">Explore Programs</a>
+    </div>
+
+    <div class="main-section" id="research">
+        <h2>Research</h2>
+        <p>We are committed to advancing agricultural sciences through cutting-edge research in fields such as sustainable farming, biotechnology, and agricultural economics. Our research aims to improve food security and sustainability on a global scale.</p>
+        <a href="http://agriculture.upm.edu.my/research" class="cta-button">View Research</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Faculty of Agriculture, Universiti Putra Malaysia</p>
+        <div class="footer-links">
+            <a href="#about">About Us</a> | 
+            <a href="#programs">Programs</a> | 
+            <a href="#research">Research</a> | 
+            <a href="#contact">Contact</a>
+        </div>
+    </footer>
+</body>
+</html>
